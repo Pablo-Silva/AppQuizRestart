@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">AppQuizRestart</string>
+    <string name="qual_a_capital_do_paran">Qual a capital do Paraná</string>
+    <string name="em_qual_ano_terminao_a_2_guerra_mundial">Em qual ano terminao a 2 guerra mundial</string>
+    <string name="quem_ganhou_a_copa_de_98">Quem ganhou a copa de 98</string>
+    <string name="qual_a_ra_a_do_goku">Qual é a raça do Goku</string>
+    <string name="qual_o_nome_do_buraco_negro_que_esta_no_centro_da_nossa_galaxia">Qual é o nome do buraco negro que esta no centro da nossa galaxia</string>
+    <string name="resultado">Resultado</string>
+    <string name="acertos_0_5">Acertos: 0/5</string>
+    <string-array name="Cidade">
+        <item>Colombo</item>
+        <item>Curitiba</item>
+        <item>Pinhais</item>
+    </string-array>
+
+    <string-array name="Ano">
+        <item>1935</item>
+        <item>1944</item>
+        <item>1945</item>
+    </string-array>
+
+    <string-array name="Copa">
+        <item>França</item>
+        <item>Brasil</item>
+        <item>Argentina</item>
+    </string-array>
+
+    <string-array name="Raça">
+        <item>Tsufurujin</item>
+        <item>Namekuseijin</item>
+        <item>Sayajin</item>
+        <item>Humano</item>
+        <item>Marciano</item>
+    </string-array>
+
+    <string-array name="buraco">
+        <item>MS 0735.6+7421</item>
+        <item>Sagittarius A</item>
+        <item>Messier 87</item>
+        <item>NGC 4889</item>
+        <item>SSDS J085543.40-001517.7</item>
+    </string-array>
+</resources>

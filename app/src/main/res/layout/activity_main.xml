@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qual_a_capital_do_paran"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/resposta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/Cidade"
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/em_qual_ano_terminao_a_2_guerra_mundial"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/resposta2"
+        android:entries="@array/Ano"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/quem_ganhou_a_copa_de_98"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/resposta3"
+        android:entries="@array/Copa"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qual_a_ra_a_do_goku"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/resposta4"
+        android:entries="@array/Raça"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qual_o_nome_do_buraco_negro_que_esta_no_centro_da_nossa_galaxia"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/resposta5"
+        android:entries="@array/buraco"
+        android:spinnerMode="dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="cliqueAcertos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resultado" />
+
+    <TextView
+        android:id="@+id/textAcerto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acertos_0_5"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="restart"
+        android:text="Restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
